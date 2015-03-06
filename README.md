@@ -69,9 +69,9 @@ URL | HTTP Verb | Functionality
 
 URL | HTTP Verb | Functionality
 --- | --------- | -----------
-`/users/:nid/reportbacks`                       | GET | For a specific user, retrieve all reportback *files*
-`/users/:nid/reportbacks/:rbid`                 | GET | For a specific user, retrieve all reportback *files* for a specific reportback
-`/users/:nid/reportbacks/:rbid?status=promoted` | GET | For a specific user, retrieve all reportback *files* for a specific reportback filtered by parameters
+`/users/:uid/reportbacks`                       | GET | For a specific user, retrieve all reportback *files*
+`/users/:uid/reportbacks/:rbid`                 | GET | For a specific user, retrieve all reportback *files* for a specific reportback
+`/users/:uid/reportbacks/:rbid?status=promoted` | GET | For a specific user, retrieve all reportback *files* for a specific reportback filtered by parameters
 
 
 
