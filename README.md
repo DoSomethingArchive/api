@@ -1,6 +1,6 @@
 # api.dosomething.org
 
-Below are the enpoints all in both the northstar api and the drupal api
+Below are all the endpoints in both the Northstar and Drupal API.
 
 ### Northstar Endpoints
 
@@ -16,12 +16,13 @@ URL | HTTP Verb | Functionality
 `/users/:_id`                        | PUT   | [Updating a User](https://github.com/DoSomething/northstar/wiki/Spec#updating-a-user)
 `/users/:_id`                        | DELETE| [Deleting a User](https://github.com/DoSomething/northstar/wiki/Spec#deleting-a-user)
 `/users/:term/:identifier/campaigns` | GET   | [Retrieving a User's Campaigns](https://github.com/DoSomething/northstar/wiki/Spec#retrieving-a-users-campaigns)
+`/campaigns/:nid`                    | GET   | [Retrieving a User's Activity on a Single Campaign](https://github.com/DoSomething/northstar/wiki/Spec#retrieving-a-users-activity-on-a-single-campaign)
 `/campaigns/:nid/signup`             | POST  | [Submitting a Campaign Sign Up](https://github.com/DoSomething/northstar/wiki/Spec#submitting-a-campaign-sign-up)
-`/campaigns/:nid/reportback`         | POST  | [Submitting a Campaign Report Back](https://github.com/DoSomething/northstar/wiki/Spec#submitting-a-campaign-report-back)
-`/campaigns/:nid/reportback`         | PUT   | [Updating a Campaign Report Back](https://github.com/DoSomething/northstar/wiki/Spec#updating-a-campaign-report-back)
-`/keys`                              | POST  | Generate new api key
+`/campaigns/:nid/reportback`         | POST/PUT  | [Submitting a Campaign Report Back](https://github.com/DoSomething/northstar/wiki/Spec#submitting-a-campaign-report-back)
+`/keys`                              | POST  | [Creating an API Key](https://github.com/DoSomething/northstar/wiki/Spec#creating-an-api-key)
+`/keys`                              | GET   | [Retrieving All API Keys](https://github.com/DoSomething/northstar/wiki/Spec#retrieving-all-api-keys)
 
-### Drupal Enpoints
+### Drupal Endpoints
 
 `https://www.dosomething.org/api/v1`
 
@@ -41,9 +42,3 @@ URL | HTTP Verb | Functionality
 `/users`                         | GET  | [Get a user](https://github.com/DoSomething/dosomething/wiki/API#find-a-user)
 `/users`                         | POST | [Create a drupal user](https://github.com/DoSomething/dosomething/wiki/API#create-a-user)
 `/users/get_member_count`        | POST | [Retrieve member count](https://github.com/DoSomething/dosomething/wiki/API#get-member-count)
- 
-
-
-
-
-`
