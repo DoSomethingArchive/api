@@ -4,7 +4,6 @@
 
 URL | HTTP Verb | Functionality
 --- | --------- | -----------
-
 `/auth/login`               | POST | [Logging in](https://github.com/DoSomething/dosomething/wiki/API#user-login)
 `/auth/logout`              | POST | [Logging out](https://github.com/DoSomething/dosomething/wiki/API#user-logout)
 `/auth/token`               | POST | [Retrieve the X-CSRF Token for the logged in user](https://github.com/DoSomething/dosomething/wiki/API#get-authentication-token)
@@ -39,6 +38,5 @@ The following endpoints will be deprecated:
 
 URL | HTTP Verb | Functionality
 --- | --------- | -----------
-
 `/content/:nid`                 | GET  | [Retrieve a campaign](https://github.com/DoSomething/dosomething/wiki/API#retrieve-a-campaign)
 `/reportback_files/:fid/review` | POST | [Review a Reportback File](https://github.com/DoSomething/dosomething/wiki/API#review-a-reportback-file)
