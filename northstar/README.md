@@ -4,7 +4,6 @@
 
 URL | HTTP Verb | Functionality
 --- | --------- | -------------
-
 `/login`                             | POST | [Logging In](https://github.com/DoSomething/northstar/wiki/Spec#logging-in)
 `/logout`                            | POST | [Logging Out](https://github.com/DoSomething/northstar/wiki/Spec#logging-out)
 `/users`                             | POST | [Registering a User](https://github.com/DoSomething/northstar/wiki/Spec#registering-a-user)
