@@ -27,6 +27,7 @@ URL | HTTP Verb | Functionality
 `/user/campaigns/:campaign_id`       | GET | [Retrieving a User's Activity on a Single Campaign](https://github.com/DoSomething/northstar/wiki/Spec#retrieving-a-users-activity-on-a-single-campaign)
 `/user/campaigns/:campaign_id/signup` | POST | [Submitting a Campaign Sign Up](https://github.com/DoSomething/northstar/wiki/Spec#submitting-a-campaign-sign-up)
 `/user/campaigns/:campaign_id/reportback`| POST/PUT | [Submitting a Campaign Report Back](https://github.com/DoSomething/northstar/wiki/Spec#submitting-a-campaign-report-back)
+`/signup-group/:group_id`            | GET | [Get Signup Group](https://github.com/DoSomething/northstar/wiki/Spec#get-signup-group)
 `/keys`                              | POST | [Creating an API Key](https://github.com/DoSomething/northstar/wiki/Spec#creating-an-api-key)
 `/keys`                              | GET | [Retrieving All API Keys](https://github.com/DoSomething/northstar/wiki/Spec#retrieving-all-api-keys)
 
