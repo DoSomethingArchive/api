@@ -22,7 +22,7 @@ URL | HTTP Verb | Functionality
 `/users/:term/:identifier`           | GET | [Retrieving a User](https://github.com/DoSomething/northstar/wiki/Spec#retrieving-a-user)
 `/users/:_id`                        | PUT | [Updating a User](https://github.com/DoSomething/northstar/wiki/Spec#updating-a-user)
 `/users/:_id`                        | DELETE | [Deleting a User](https://github.com/DoSomething/northstar/wiki/Spec#deleting-a-user)
-`/users/:_id/avatar`                 | POST | [Creating a User's Profile IMage](https://github.com/DoSomething/northstar/wiki/Spec#creating-a-users-profile-image)
+`/users/:_id/avatar`                 | POST | [Creating a User's Profile Image](https://github.com/DoSomething/northstar/wiki/Spec#creating-a-users-profile-image)
 `/users/:term/:identifier/campaigns` | GET | [Retrieving a User's Campaigns](https://github.com/DoSomething/northstar/wiki/Spec#retrieving-a-users-campaigns)
 `/user/campaigns/:campaign_id`       | GET | [Retrieving a User's Activity on a Single Campaign](https://github.com/DoSomething/northstar/wiki/Spec#retrieving-a-users-activity-on-a-single-campaign)
 `/user/campaigns/:campaign_id/signup` | POST | [Submitting a Campaign Sign Up](https://github.com/DoSomething/northstar/wiki/Spec#submitting-a-campaign-sign-up)
