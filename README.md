@@ -11,7 +11,8 @@ Below are all links specifying the endpoint on our platforms.
 
 ### Northstar Endpoints
 
-`https://northstar.dosomething.org`
+**Production**: `https://northstar.dosomething.org`  
+**Staging/QA**: `http://northstar-qa.dosomething.org`
 
 URL | HTTP Verb | Functionality
 --- | --------- | -------------
@@ -37,7 +38,8 @@ URL | HTTP Verb | Functionality
 
 ### Drupal Endpoints
 
-`https://www.dosomething.org/api/v1`
+**Production**: `https://www.dosomething.org/api/v1`  
+**Staging/QA**: `http://staging.beta.dosomething.org/api/v1`
 
 URL | HTTP Verb | Functionality
 --- | --------- | -----------
